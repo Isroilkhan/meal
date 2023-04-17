@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container button {
+  background-color: rgb(13, 129, 57);
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+.container p {
+  opacity: 0.6;
+}
+.container h1 {
+  font-size: 32px;
+}
+
+h5 {
+  color: rgb(98, 206, 98);
+}
+
+.head {
+  display: flex;
+  justify-content: space-evenly;
+}
+.head ul {
+  display: flex;
+  list-style: none;
+}
+.head ul a {
+  padding: 0 10px;
+  color: black;
+  text-decoration: none;
+}
+.head ul a:hover {
+  color: rgb(79, 230, 79);
+}
+.head img {
+  margin-bottom: -5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.head #btn {
+  background-color: rgb(31, 44, 44);
+  color: white;
+  padding: 8px 15px;
+  margin-top: 10px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-evenly;
+}
+.body span {
+  color: rgb(74, 236, 74);
+}
+.body img {
+  width: 400px;
+  height: 400px;
+}
+
+main {
+  text-align: center;
+}
+main .card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+aside {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+aside .picture {
+  display: flex;
+}
+aside .picture .pic img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 15px;
+}
+aside .picture .images img {
+  width: 200px;
+  height: 400px;
+  margin-top: 60px;
+}
+aside .title {
+  align-self: center;
+}
+
+.foods {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.foods h1 {
+  font-size: 32px;
+}
+.foods img {
+  width: 400px;
+  height: 300px;
+}
+
+.chef {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.chef img {
+  width: 300px;
+  height: 300px;
+}
+.chef .box {
+  display: flex;
+}
+.chef .box img {
+  width: 20px;
+  height: 20px;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+
+section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+section .salad {
+  display: flex;
+  justify-content: space-evenly;
+}
+section .salad .box {
+  border: 1px solid rgb(197, 194, 189);
+  border-radius: 14px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+section .salad .box img {
+  width: 170px;
+  height: 170px;
+}/*# sourceMappingURL=style.css.map */

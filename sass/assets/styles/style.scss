@@ -1,0 +1,151 @@
+@import"./fonts";
+@import"./mixins";
+@import"./normallize";
+
+
+.container{
+  button{
+    background-color: rgb(13, 129, 57);
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+  }
+  p{
+    opacity: 0.6;
+  }
+  h1{
+    font-size: 32px;
+  }
+}
+h5{
+  color: rgb(98, 206, 98);
+}
+.head{
+  display: flex;
+  justify-content: space-evenly;
+
+  ul{
+    display: flex;
+    list-style: none;
+    a{
+      padding: 0 10px;
+      color: black;
+      text-decoration: none;
+    }
+    a:hover{
+      color: rgb(79, 230, 79);
+    }
+
+  }
+  img{
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  #btn{
+    background-color: rgb(31, 44, 44);
+    color: white;
+    padding: 8px 15px;
+    margin-top: 10px;
+  }
+}
+.body{
+  display: flex;
+  justify-content: space-evenly;
+
+  span{
+    color: rgb(74, 236, 74);
+  }
+
+  img{
+    width: 400px;
+    height: 400px;
+  }
+}
+main{
+  text-align: center;
+  .card{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+aside{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+ .picture{
+   display: flex;
+   
+  .pic{ 
+    img{
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin: 15px;
+    }
+    
+  }
+  .images{
+    img{
+      width: 200px;
+      height: 400px;
+      margin-top: 60px;
+    }
+  }
+ }
+  
+ .title{
+  align-self: center;
+ }
+}
+.foods{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  h1{
+    font-size: 32px;
+  }
+  img{
+    width: 400px;
+    height: 300px;
+  }
+}
+.chef{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  img{
+    width: 300px;
+    height: 300px;
+  }.box{
+    display: flex;
+
+    img{
+      width: 20px;
+      height: 20px;
+      margin-top: 16px;
+      margin-right: 10px;
+    }
+  }
+
+}
+section{
+  text-align: center;
+  margin-bottom: 20px;
+  .salad{
+    display: flex;
+    justify-content: space-evenly;
+    .box{
+     border: 1px solid rgb(197, 194, 189);
+     border-radius: 14px;
+     padding: 15px;
+     margin-bottom: 20px;
+      img{
+        width: 170px;
+        height: 170px;
+      }
+    }  
+  } 
+}
